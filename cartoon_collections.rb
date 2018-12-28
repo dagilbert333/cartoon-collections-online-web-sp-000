@@ -36,5 +36,4 @@ def find_the_cheese(array)
     return cheese_types[i] if yield(cheese_types[i])
     i = i + 1
   end
-end
-end
+
