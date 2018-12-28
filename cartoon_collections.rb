@@ -29,7 +29,7 @@ ddef long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-matching_item = []
+ matching_item = []
   if array.include?("cheddar")
     matching_item << "cheddar"
   elsif array.include?("gouda")
