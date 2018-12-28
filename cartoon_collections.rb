@@ -41,5 +41,6 @@ def find_the_cheese(array)
   end
   matching_item[0]
 end
+end
 
 
