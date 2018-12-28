@@ -40,7 +40,6 @@ def find_the_cheese(array)
   else
     nil
   end
-  matching_item[0]
 end
 
 
