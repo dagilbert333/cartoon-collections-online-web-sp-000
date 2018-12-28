@@ -33,7 +33,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0
   while i < array.length
-    yield(cheese_types[i])
+    return cheese_types[i] if yield(collection[i])
     i = i + 1
   end
 end
